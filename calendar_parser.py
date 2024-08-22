@@ -3,7 +3,7 @@ import requests
 import csv
 import datetime
 
-# If iCalender module is not installed, use the following command to install it
+# If iCalendar module is not installed, use the following command to install it
 # pip3 install icalendar
 
 def calendar_utility(window_start: datetime.datetime,window_end: datetime.datetime,ical: str,output_to_csv: bool=False):
