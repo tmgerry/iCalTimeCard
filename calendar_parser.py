@@ -44,6 +44,7 @@ def calendar_utility(window_start: datetime.datetime,window_end: datetime.dateti
             # print(end)
 
             total_time = total_time + duration
+            count += 1
         else:
             pass
             # Event isn't within time range given
